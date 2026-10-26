@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated RAG storage
+storage/*.faiss
+storage/*.json
+storage/*.pkl
+
+# User documents
+data/*.pdf
+data/*.docx
+data/*.txt
+
+# Streamlit
+.streamlit/secrets.toml
